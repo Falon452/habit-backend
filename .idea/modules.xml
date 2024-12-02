@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/habit-backend_4510.iml" filepath="$PROJECT_DIR$/.idea/modules/habit-backend_4510.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/habit-backend_4510.habit-backend_4510-build.iml" filepath="$PROJECT_DIR$/.idea/modules/habit-backend_4510.habit-backend_4510-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/habit-backend.iml" filepath="$PROJECT_DIR$/.idea/modules/habit-backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/habit-backend.habit-backend-build.iml" filepath="$PROJECT_DIR$/.idea/modules/habit-backend.habit-backend-build.iml" />
     </modules>
   </component>
 </project>
