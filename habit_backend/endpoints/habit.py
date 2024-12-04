@@ -12,7 +12,6 @@ router = APIRouter()
 async def create_habit_endpoint(habit: Habit):
     created_habit = await create_habit(habit)
     if created_habit is None:
-        # Raise a 409 Conflict if the habit already exists
         raise HTTPException(
             status_code=409, detail="Habit with the same key already exists"
         )
