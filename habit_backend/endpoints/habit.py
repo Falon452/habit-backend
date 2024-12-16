@@ -2,8 +2,8 @@ from typing import List
 
 from fastapi import APIRouter, HTTPException
 
-from habit_backend.models.habit import Habit
-from habit_backend.services.habit_service import get_all_habits, create_habit
+from models.habit import Habit
+from services.habit_service import get_all_habits, create_habit
 
 router = APIRouter()
 

@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 
-from habit_backend.endpoints import habit
+from endpoints import habit
 
 app = FastAPI()
 

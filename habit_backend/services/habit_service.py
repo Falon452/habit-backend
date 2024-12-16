@@ -3,7 +3,7 @@ from typing import List
 from motor.motor_asyncio import AsyncIOMotorClient
 from pymongo.errors import DuplicateKeyError
 
-from habit_backend.models.habit import Habit
+from models.habit import Habit
 
 client = AsyncIOMotorClient("mongodb://localhost:27017")
 db = client.habit_db
